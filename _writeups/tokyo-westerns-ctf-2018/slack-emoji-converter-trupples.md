@@ -47,7 +47,7 @@ showpage
 
 And this popped up:
 
-![Notification with "PWNED BOIII" content](./emoji/notif.jpg)
+![Notification with "PWNED BOIII" content](./notif.jpg)
 
 This is awesome! We have RCE. To send a payload we only need to replace the
 command in the postscript file to something else and send it again. I quickly
