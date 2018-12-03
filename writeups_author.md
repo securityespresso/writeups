@@ -37,22 +37,32 @@ permalink: /writeups_author/
 # Writeups by author
 <a href="../writeups/">Browse writeups by CTF</a>
 
-{% assign authors = site.data.authors | sort: "name" %}
+{% assign authors = site.data.authors | sort: "handles" %}
 {% assign writeups = site.writeups | sort: "contest" %}
 
 {% for author in authors %}
 
 <div class='author'>
 
-<span class='main_handle'> {{ author.handles | join: "</span><span class='alt_handle'>" }} </span><br>
+{%- for handle in author.handles -%}
+{%- if handle == author.handles[0] -%}
+<span class='main_handle'>{{ handle | escape }}</span>
+{%- else -%}
+<span class='alt_handle'>{{ handle | escape }}</span>
+{%- endif -%}
+{%- endfor -%}
 
-<!--Writeups by {{ author.handles.first }}:-->
+{%- if author.email -%}
+<span class='contact'> - <a href='mailto:{{ author.email }}'>{{ author.email | escape }}</a></span>
+{%- endif -%}
+<br>
+
 <ul>
-{% for writeup in writeups %}
-{% if writeup.authors contains author.handles.first %}
-	<li><a href="{{site.baseurl}}{{writeup.url}}"><h3>{{ writeup.title }} - {{ writeup.contest }}</h3></a></li>
-{% endif %}
-{% endfor %}
+{%- for writeup in writeups -%}
+{%- if writeup.authors contains author.handles.first -%}
+	<li><a href="{{site.baseurl}}{{writeup.url}}"><h3>{{ writeup.title | escape }} - {{ writeup.contest | escape }}</h3></a></li>
+{%- endif -%}
+{%- endfor -%}
 </ul>
 
 </div>
