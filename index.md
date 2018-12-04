@@ -12,4 +12,4 @@ You can browse writeups <a href="./writeups/">by CTF</a>, <a href="./writeups_au
 This project is open source, so if you wish to contribute with a writeup of your own
 make sure to read the <a href="./howto.html">How-To</a> page!
 
-To learn more about the jmp 0xc0ffee CTF club, check out <a href="https://club.securityespresso.org">club.securityespresso.org</a>!
+To learn more about the jmp 0xc0ffee CTF club, check out the <a href="./about.html">About us</a> page!
