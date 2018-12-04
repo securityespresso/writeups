@@ -27,6 +27,7 @@ kramdown:
   input: GFM # Github-Flavored 
 plugins:
   - jekyll-feed
+  - jekyll-last-modified-at
 
 collections:
   writeups:
