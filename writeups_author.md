@@ -35,7 +35,7 @@ permalink: /writeups_author/
 </style>
 
 # Writeups by author
-<a href="../writeups/">Browse writeups by CTF</a>
+Browse writeups <a href="../writeups/">by CTF</a> / <a href="../writeups_latest/">latest</a>
 
 {% assign authors = site.data.authors | sort: "handles" %}
 {% assign writeups = site.writeups | sort: "contest" %}

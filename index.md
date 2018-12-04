@@ -6,7 +6,8 @@ layout: home
 title: Home
 ---
 
-Welcome to the jmp 0xc0ffee writeup archive! You can browse writeups <a href="./writeups/">by CTF</a> or <a href="./writeups_author">by author</a>.
+Welcome to the jmp 0xc0ffee CTF writeups archive!
+You can browse writeups <a href="./writeups/">by CTF</a>, <a href="./writeups_author">by author</a> or <a href="./writeups_latest">by latest edit.</a>
 
 This project is open source, so if you wish to contribute with a writeup of your own
 make sure to read the <a href="./howto.html">How-To</a> page!

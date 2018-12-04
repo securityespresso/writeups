@@ -12,7 +12,7 @@ ul h3 {
 </style>
 
 # Writeups by CTF
-<a href="../writeups_author/">Browse writeups by author</a>
+Browse writeups <a href="../writeups_author/">by author</a> / <a href="../writeups_latest/">latest</a>
 
 {% assign contests = site.writeups | group_by: "contest" %}
 
