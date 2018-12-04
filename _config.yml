@@ -17,8 +17,8 @@ title: "jmp 0xc0ffee archive"
 email: club@securityespresso.org
 description: >- # this means to ignore newlines until "baseurl:"
   Writeup archive for the jmp0xc0ffee CTF club.
-baseurl: "/writeups" # the subpath of your site, e.g. /blog
-url: "https://trupples.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://club.securityespresso.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
