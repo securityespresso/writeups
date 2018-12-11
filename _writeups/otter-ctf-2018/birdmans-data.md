@@ -6,21 +6,17 @@ layout: writeup
 ---
 
 
-### Description:
+## Description:
 
 We recorded some of BirdMan's networking, but a part of it (the important part) got scrambled.
 
 [Download](https://nitesculucian.github.io/uploads/otter3/Birdmans_data.pcap)
 
-### Solution Author:
-
-Lucian Nitescu, as part of [jmp 0xc0ffee](https://www.google.com/url?q=https://club.securityespresso.org/&sa=D&ust=1544488687153000) team.
-
-### Stats:
+## Stats:
 
 150 points / 100 solvers
 
-### Solution:
+## Solution:
 
   
 While looking throughout the provided ```.pcap``` I discovered the following issue:
