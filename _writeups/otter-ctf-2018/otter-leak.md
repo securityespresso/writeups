@@ -13,10 +13,6 @@ Format: CTF{flag all uppercase}
 
 [Download](https://nitesculucian.github.io/uploads/otter2/OtterLeak.pcap)
 
-## Solution Author:
-
-Lucian Nitescu, as part of [jmp 0xc0ffee](https://www.google.com/url?q=https://club.securityespresso.org/&sa=D&ust=1544485416463000) team.
-
 ## Stats:
 
 200 points / 45 solvers
