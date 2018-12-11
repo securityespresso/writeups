@@ -5,17 +5,17 @@ authors: Lucian Nitescu
 layout: writeup
 ---
 
-### Description:
+## Description:
 
 Found this nested zip in Morty's PC. what is it that he is hiding?
 
 [Download](https://nitesculucian.github.io/uploads/otter1/a.zip)
 
-### Stats:
+## Stats:
 
 150 points / 94 solvers
 
-### Solution:  
+## Solution:  
 
 The challenge started with a ```.zip``` file which contained multiple zipped files within other zipped files as you can see in the following example:
 
