@@ -5,7 +5,7 @@ authors: Lucian Nitescu
 layout: writeup
 ---
 
-### Description:
+## Description:
 
 We found out that one of the Otters been leaking information from our network! Find the leaked data.
 
@@ -13,15 +13,11 @@ Format: CTF{flag all uppercase}
 
 [Download](https://nitesculucian.github.io/uploads/otter2/OtterLeak.pcap)
 
-### Solution Author:
-
-Lucian Nitescu, as part of [jmp 0xc0ffee](https://www.google.com/url?q=https://club.securityespresso.org/&sa=D&ust=1544485416463000) team.
-
-### Stats:
+## Stats:
 
 200 points / 45 solvers
 
-### Solution:
+## Solution:
 
 On this challenge, I was provided with a ```.pcap``` file which contained packets form an internal network. My first step in every pcap file is to lunch ```Network Miner``` tool and take a look at what it retrieves. Here I discovered the following files:
 
