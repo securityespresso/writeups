@@ -50,3 +50,4 @@ Added the missing parts from the flag in order to respect the format.
 ![](https://nitesculucian.github.io/uploads/otter2/image1.png)
 
 ![](https://nitesculucian.github.io/uploads/otter2/image5.png)
+
